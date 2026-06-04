@@ -22,4 +22,19 @@ print(type(width))
 """
 This is a multi line comment
 
-f"""
+"""
+
+# now we are going to learn about operators
+
+# 1. Arithmetic operators
+
+a= 5
+b = 6
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a**b)
+
