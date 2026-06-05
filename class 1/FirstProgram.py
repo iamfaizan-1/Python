@@ -96,3 +96,24 @@ This is a multi line comment
 # b = int(input("Enter second number: "))
 
 # print(a>=b)
+
+
+# finding length of a string
+
+# str = "I am faizan"
+# print(len(str))
+
+
+# indexing in python
+
+# string = "Hello world"
+
+# print(string[4])
+
+#slicing in python
+
+string = "Hello world"
+
+str2 = string[0:5]
+
+print(str2)
