@@ -112,8 +112,23 @@ This is a multi line comment
 
 #slicing in python
 
-string = "Hello world"
+# string = "Hello world"
 
-str2 = string[0:5]
+# str2 = string[0:5]
 
-print(str2)
+# print(str2)
+
+
+
+
+
+"""  
+I am practicing
+
+"""
+
+
+name = "faizan"
+age = 20
+
+print("My name is: ",name, "and My age is: ",age)
