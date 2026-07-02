@@ -128,7 +128,17 @@ I am practicing
 """
 
 
-name = "faizan"
-age = 20
+# name = "faizan"
+# age = 20
 
-print("My name is: ",name, "and My age is: ",age)
+# print("My name is: ",name, "and My age is: ",age)
+
+
+"""
+
+taking input from user
+
+"""
+
+name = input("Enter your name ")
+age = input("Enter your age")
