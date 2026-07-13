@@ -9,3 +9,24 @@ if 5>2 :
 
 else:
     print("5 is not greater")
+
+
+    #collection unpack
+
+
+fruits = ["apple","banana","cherry"]   
+x,y,z = fruits
+
+print(x)
+print(y)
+print(z)
+
+
+#escape character
+
+
+print('you are welcome\nfaizan')#newline
+print('you are\\ welcome')#backslash
+print('you are \t welcome')#tab 
+print('who\'s this') #single quotes
+
