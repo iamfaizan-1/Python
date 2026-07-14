@@ -22,6 +22,13 @@ print(y)
 print(z)
 
 
+cities = ["karachi","Lahore","Islamabad"]
+
+a,b,c = cities
+print(a)
+print(b)
+print(c)
+
 #escape character
 
 
