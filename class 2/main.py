@@ -37,3 +37,7 @@ print('you are\\ welcome')#backslash
 print('you are \t welcome')#tab 
 print('who\'s this') #single quotes
 
+# type casting
+
+a = str(1)
+print(type(a))
