@@ -1,4 +1,5 @@
 #class 3
+import random
 
 x = "Hello world"
 
