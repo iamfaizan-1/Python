@@ -61,20 +61,42 @@ favouriteFruits = ["apple","Mango","Grapes"]
 # print(calculateTax(250,15))
 
 """Global vs local vs enclosed"""
-globalVariable = 5
+# globalVariable = 5
 
-def fn1():
-    enclosedVariable = 2
+# def fn1():
+#     enclosedVariable = 2
 
-    def fn2():  
-        print("This is enclosed variable",enclosedVariable)
-    localVariable = 6
+#     def fn2():  
+#         print("This is enclosed variable",enclosedVariable)
+#     localVariable = 6
     
-    fn2()
+#     fn2()
 
 
-fn1()    
+# fn1()    
 
     
+""" variable scope and function """   
+
+# def get_total(a, b):
+#     #local variable declared inside a function
+#     total = a + b
+#     return total
+
+# print(get_total(5, 2))
 
 
+def get_total(a, b):
+    #enclosed variable declared inside a function
+    total = a + b
+
+    def double_it():
+        #local variable
+        double = total * 2
+        print(double)
+
+    double_it()
+    #double variable will not be accessible
+ 
+
+ 
