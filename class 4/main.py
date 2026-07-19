@@ -44,7 +44,37 @@ favouriteFruits = ["apple","Mango","Grapes"]
 
 """ while loops """
 
-count = 0
-while count < len(favouriteFruits):
-    print("My favourite fruit is: ",favouriteFruits[count])
-    count +=1
+# count = 0
+# while count < len(favouriteFruits):
+#     print("My favourite fruit is: ",favouriteFruits[count])
+#     count +=1
+
+
+"""functions"""  
+
+# 1.
+
+# def calculateTax(bill,taxRate):
+
+#     return (bill*taxRate)/100
+
+# print(calculateTax(250,15))
+
+"""Global vs local vs enclosed"""
+globalVariable = 5
+
+def fn1():
+    enclosedVariable = 2
+
+    def fn2():  
+        print("This is enclosed variable",enclosedVariable)
+    localVariable = 6
+    
+    fn2()
+
+
+fn1()    
+
+    
+
+
