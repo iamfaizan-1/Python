@@ -23,3 +23,4 @@ def totalOf(**kwargs):
     return sum
 
 print(totalOf(coffee = 3, cake = 4, juice = 2))
+
