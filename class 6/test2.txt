@@ -1,0 +1,2 @@
+This is the new method to add multiple lines, it accepts a list
+This is the second line
