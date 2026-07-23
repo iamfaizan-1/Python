@@ -59,7 +59,13 @@
 
 
 
-my_dict = {"name": "Alice", "age": 30}
-my_dict["city"] = "New York"
-print(my_dict["age"])
-print(my_dict)
+# my_dict = {"name": "Alice", "age": 30}
+# my_dict["city"] = "New York"
+# print(my_dict["age"])
+# print(my_dict)
+
+
+myList  = [1,2,3,4,5]
+
+myList[4] = 6
+print(myList)
