@@ -26,3 +26,6 @@ house.num_rooms = 7
 House.num_rooms = 8
 print(house.num_rooms)
 print(house.num_rooms)
+print(house.num_rooms)
+
+
