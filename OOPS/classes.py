@@ -19,13 +19,33 @@ class House:
         pass
 
 house = House()
-print(house.num_rooms)
-print(House.num_rooms)
+# print(house.num_rooms)
+# print(House.num_rooms)
 
 house.num_rooms = 7
 House.num_rooms = 8
-print(house.num_rooms)
-print(house.num_rooms)
-print(house.num_rooms)
+# print(house.num_rooms)
+# print(house.num_rooms)
+# print(house.num_rooms)
+
+
+""" Constructor"""
+
+class Recipe():
+
+    def __init__(self,dish,items,time) -> None:
+
+        self.dish = dish
+        self.items = items
+        self.time = time
+
+    def contents(self):
+        print("The" + self.dish + "has" +str(self.items) + \
+              "and takes " + str(self.time) +"minutes to prepare")
+
+pizza = Recipe("pizza",["tomato","cheese","flour"],45)
+pasta = Recipe("pasta",["vegetables","chicken","pasta"],55)
+# print(pizza.contents())
+# print(pasta.contents())
 
 
