@@ -49,3 +49,61 @@ pasta = Recipe("pasta",["vegetables","chicken","pasta"],55)
 # print(pasta.contents())
 
 
+""" challenge """
+
+class MyFirstClass:
+    
+    index = "Author book"
+
+    def __init__(self):
+        print("who wrote this?")
+
+  #constructor create karne ka sabse bara faida ye hai ke humain har object ki same properties baar baar define nahi karni padti, ek he dafa constructor main define kardete hain      
+
+    def hand_list(self,philosopher, book):
+        print(MyFirstClass.index)
+        print(philosopher + " wrote the  book "+ book  )
+
+# whodidthis = MyFirstClass()
+# whodidthis.hand_list("shakespear","Tom and jerry")           
+
+
+#inheritance
+
+class Employees:
+    def __init__(self,name,last) -> None:
+        self.name = name
+        self.last = last
+
+
+class Supervisors(Employees):
+    def __init__(self,name,last,password) -> None:
+      super().__init__(name,last)
+      self.password = password
+
+class Chefs(Employees):
+     def leave_request(self,days):
+         return "May I take leave for "+str(days)+"days"
+
+
+Faizan = Employees("Faizan",'f')
+Emily = Supervisors("Emily",'e','apple')
+Ahmed = Chefs('Ahmed','a')
+
+# print(Faizan.name)
+# print(Ahmed.last)
+
+
+
+class Fruit():
+    def __init__(self, fruit):
+        print('Fruit type: ', fruit)
+
+
+class FruitFlavour(Fruit):
+    def __init__(self):
+        super().__init__('Apple')
+        print(' is sweet')
+
+apple = FruitFlavour()
+
