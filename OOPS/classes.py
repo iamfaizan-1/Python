@@ -105,5 +105,18 @@ class FruitFlavour(Fruit):
         super().__init__('Apple')
         print(' is sweet')
 
-apple = FruitFlavour()
+# apple = FruitFlavour()
 
+
+
+class Swiss:
+
+    def __init__(self):
+        self.bal = 1000
+
+
+    def basicInfo(self):
+        print(self.bal)
+
+bank = Swiss()
+bank.basicInfo()
