@@ -109,14 +109,26 @@ class FruitFlavour(Fruit):
 
 
 
-class Swiss:
+# class Swiss:
 
-    def __init__(self):
-        self.bal = 1000
+#     def __init__(self):
+#         self.bal = 1000
 
 
-    def basicInfo(self):
-        print(self.bal)
+#     def basicInfo(self):
+#         print(self.bal)
 
-bank = Swiss()
-bank.basicInfo()
+# bank = Swiss()
+# bank.basicInfo()
+
+class MyAnimal:
+    def __init__(self,color):
+        self.living = True,
+        self.color = color
+
+class Dog(MyAnimal):
+        print("This is a dog class")
+
+dog1= Dog("Black")
+print(dog1.color)                 
+
